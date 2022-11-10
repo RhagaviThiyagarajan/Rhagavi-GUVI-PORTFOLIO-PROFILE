@@ -55,7 +55,7 @@ function Portfolio() {
             <img src={chatApp} alt="" />
           </a>
 
-          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git">
+          <a href="https://github.com/RhagaviThiyagarajan/ChatApp-frontEnd-final.git">
             <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
