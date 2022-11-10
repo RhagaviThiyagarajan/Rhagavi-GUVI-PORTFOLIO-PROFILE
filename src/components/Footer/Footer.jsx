@@ -20,7 +20,7 @@ function Footer() {
            <Linkeden color="white" size='3rem'/>
            </a>
               
-              <a href="https://github.com/RhagaviThiyagarajan">
+              <a href="https://github.com/RhagaviThiyagarajan/Projects-GUVI-GithubLinks/tree/main">
                 <Github color="white" size='3rem'/>
                 </a>
             </div>
