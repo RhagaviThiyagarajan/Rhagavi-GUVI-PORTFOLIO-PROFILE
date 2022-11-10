@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import Github from "../../img/github.png"
+
+import Github from "@iconscout/react-unicons/icons/uil-github";
 import hoc from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import Sidebar from "../../img/sidebar.png";
@@ -33,7 +34,9 @@ function Portfolio() {
         <SwiperSlide>
           <a href="https://booking-app-mern.netlify.app/">
             <img src={BookingApp} alt="" />
-           
+          </a>
+          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-bookingApp-FrontEnd.git">
+            <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
 
@@ -41,15 +44,28 @@ function Portfolio() {
           <a href="https://mern-exp-tracker.netlify.app/">
             <img src={EXpTracker} alt="" />
           </a>
+
+          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXP_TRACKER-FRONTEND.git">
+            <Github color="white" size="2rem" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={chatApp} alt="" />
+          <a href="https://chatapp-mern-portfolio.netlify.app/">
+            <img src={chatApp} alt="" />
+          </a>
+
+          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git">
+            <Github color="white" size="2rem" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
           <a href="https://main--blogappreactnode.netlify.app/">
             <img src={BlogApp} alt="" />
+          </a>
+          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git">
+            <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
       </Swiper>
