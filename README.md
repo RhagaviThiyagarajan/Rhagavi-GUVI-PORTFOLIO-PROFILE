@@ -1,3 +1,3 @@
 netlify deployment link
 
-https://mern-portfolio-rhagavi.netlify.app/
+https://main--mern-portfolio-rhagavi.netlify.app/
