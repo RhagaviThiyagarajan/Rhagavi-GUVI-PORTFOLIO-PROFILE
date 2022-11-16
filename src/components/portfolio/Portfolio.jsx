@@ -32,43 +32,54 @@ function Portfolio() {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://booking-app-mern.netlify.app/">
+          <a href="https://booking-app-mern.netlify.app/"  target="_blank"  without rel="noreferrer" >
             <img src={BookingApp} alt="" />
           </a>
-          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-bookingApp-FrontEnd.git">
+          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-bookingApp-FrontEnd.git" target="_blank"  without rel="noreferrer" >
             <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://mern-exp-tracker.netlify.app/">
+          <a href="https://mern-exp-tracker.netlify.app/" target="_blank"  without rel="noreferrer" >
             <img src={EXpTracker} alt="" />
           </a>
 
-          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXP_TRACKER-FRONTEND.git">
+          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXP_TRACKER-FRONTEND.git" target="_blank"  without rel="noreferrer" >
             <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://chatapp-mern-portfolio.netlify.app/">
+          <a href="https://chatapp-mern-portfolio.netlify.app/" target="_blank"  without rel="noreferrer" >
             <img src={chatApp} alt="" />
           </a>
 
-          <a href="https://github.com/RhagaviThiyagarajan/ChatApp-frontEnd-final.git">
+          <a href="https://github.com/RhagaviThiyagarajan/ChatApp-frontEnd-final.git" target="_blank"  without rel="noreferrer" >
             <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://main--blogappreactnode.netlify.app/">
+          <a href="https://main--blogappreactnode.netlify.app/"  target="_blank"  without rel="noreferrer" >
             <img src={BlogApp} alt="" />
           </a>
-          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git">
+          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git"  target="_blank"  without rel="noreferrer" >
             <Github color="white" size="2rem" />
           </a>
         </SwiperSlide>
       </Swiper>
+
+      <div className="portfolio" Id="Portfolio">
+      <span>Projects Outline</span>
+      <div>
+      <li>Expense Tracker Using MERN and Redux</li>
+      <li>Real Time Chat App using Socket.io </li>
+      <li>Booking.com  with Admin access</li>
+      <li>Blog App using CRUD</li>
+      </div>
+      </div>
+
     </div>
   );
 }
