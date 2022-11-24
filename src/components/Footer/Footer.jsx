@@ -16,11 +16,11 @@ function Footer() {
             
               <Gmail color="white" size='3rem'/>
               
-           <a href="https://www.linkedin.com/in/rhagavi/">
+           <a href="https://www.linkedin.com/in/rhagavi/" target="_blank" without rel="noreferrer" >
            <Linkeden color="white" size='3rem'/>
            </a>
               
-              <a href="https://github.com/RhagaviThiyagarajan/Projects-GUVI-GithubLinks/tree/main">
+              <a href="https://github.com/RhagaviThiyagarajan/Projects-GUVI-GithubLinks/tree/main" target="_blank" without rel="noreferrer" >
                 <Github color="white" size='3rem'/>
                 </a>
             </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 
 import Github from "@iconscout/react-unicons/icons/uil-github";
+import { UilLink } from "@iconscout/react-unicons";
 import hoc from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import Sidebar from "../../img/sidebar.png";
@@ -18,69 +19,149 @@ import "swiper/css";
 function Portfolio() {
   return (
     <div className="portfolio" Id="Portfolio">
-      <span>Recent projects</span>
-      <span>List</span>
+      <span></span>
+      <span>Projects</span>
 
       {/* {slider} */}
 
       <Swiper
         modules={[Pagination]}
-        slidesPerView={3}
-        spaceBetween={50}
+        slidesPerView={4}
+        spaceBetween={100}
         grabCursor={true}
         pagination={{ clickable: true }}
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://booking-app-mern.netlify.app/"  target="_blank"  without rel="noreferrer" >
-            <img src={BookingApp} alt="" />
-          </a>
-          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-bookingApp-FrontEnd.git" target="_blank"  without rel="noreferrer" >
-            <Github color="white" size="2rem" />
-          </a>
+          <div>
+          <span>Description</span>
+            <li>Booking.com with Admin access</li>
+            <a
+              href="https://booking-app-mern.netlify.app/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Netlify
+              <UilLink color="white" size="2rem">
+                click here to navigate
+              </UilLink>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-bookingApp-FrontEnd.git"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Github
+              <Github color="white" size="2rem" />
+            </a>
+          </div>
+
+          <div>
+          
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://mern-exp-tracker.netlify.app/" target="_blank"  without rel="noreferrer" >
-            <img src={EXpTracker} alt="" />
-          </a>
-
-          <a href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXP_TRACKER-FRONTEND.git" target="_blank"  without rel="noreferrer" >
-            <Github color="white" size="2rem" />
-          </a>
+          <div>
+          <span> Description</span>
+          <li>Expense Tracker Using MERN and Redux</li>
+            <a
+              href="https://mern-exp-tracker.netlify.app/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Netlify<UilLink color="white" size="2rem"></UilLink>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXP_TRACKER-FRONTEND.git"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Github <Github color="white" size="2rem" />
+            </a>
+          </div>
+        
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://chatapp-mern-portfolio.netlify.app/" target="_blank"  without rel="noreferrer" >
-            <img src={chatApp} alt="" />
+          <div>
+          <span>Description</span>
+          <li>Real Time Chat App using Socket.io </li>
+          <a
+            href="https://chatapp-mern-portfolio.netlify.app/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            Netlify<UilLink color="white" size="2rem">
+              
+            </UilLink>
           </a>
+          </div>
 
-          <a href="https://github.com/RhagaviThiyagarajan/ChatApp-frontEnd-final.git" target="_blank"  without rel="noreferrer" >
-            <Github color="white" size="2rem" />
+          <div>
+          <a
+            href="https://github.com/RhagaviThiyagarajan/ChatApp-frontEnd-final.git"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            Github<Github color="white" size="2rem" />
           </a>
+          </div>
+
+
+       
         </SwiperSlide>
 
         <SwiperSlide>
-          <a href="https://main--blogappreactnode.netlify.app/"  target="_blank"  without rel="noreferrer" >
-            <img src={BlogApp} alt="" />
+          <div>
+          <span>Description</span>
+          <li>Blog App using CRUD</li>
+          <a
+            href="https://main--blogappreactnode.netlify.app/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+           Netlify <UilLink color="white" size="2rem">
+              click here to navigate
+            </UilLink>
           </a>
-          <a href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git"  target="_blank"  without rel="noreferrer" >
-            <Github color="white" size="2rem" />
+          </div>
+
+
+          <div>
+          <a
+            href="https://github.com/RhagaviThiyagarajan/blogApp-final-react-frontend.git"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+          Github  <Github color="white" size="2rem" />
           </a>
+          </div>
+
+
+         
+          
         </SwiperSlide>
       </Swiper>
 
-      <div className="portfolio" Id="Portfolio">
-      <span>Projects Outline</span>
-      <div>
-      <li>Expense Tracker Using MERN and Redux</li>
-      <li>Real Time Chat App using Socket.io </li>
-      <li>Booking.com  with Admin access</li>
-      <li>Blog App using CRUD</li>
+  
+    
+        <div></div>
       </div>
-      </div>
-
-    </div>
+    
   );
 }
 

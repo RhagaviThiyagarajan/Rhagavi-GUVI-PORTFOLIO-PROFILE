@@ -7,7 +7,9 @@
     height:100vh;
 }
 
-
+.navigate{
+    font-size: 1px;
+}
 /* //heading// */
 
 .portfolio span:nth-of-type(1)

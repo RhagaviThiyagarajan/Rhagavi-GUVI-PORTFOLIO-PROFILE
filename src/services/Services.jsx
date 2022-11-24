@@ -36,8 +36,10 @@ function Services() {
           integration/creation.
         </spane>
 
-        <a href={Resume} download>
-          <button className="button s-button">Download Resume</button>
+        <a href="https://drive.google.com/file/d/1Ek4a1KO-WxlNbxxUYEH4KM5Kkl9ENwd3/view?usp=share_link" target="_blank"
+              without
+              rel="noreferrer" download>
+          <button className="button s-button">Open Resume</button>
         </a>
         <div className="blur s-blurl" style={{ background: "#ABF1FF94" }}></div>
       </div>

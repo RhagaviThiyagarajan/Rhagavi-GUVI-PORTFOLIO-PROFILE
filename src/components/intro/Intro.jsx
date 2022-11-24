@@ -43,11 +43,11 @@ technologies (MERN).Experience in executing projects involving: REST API integra
             </Link>
 <div className="i-icons">
    
-    <a href="https://github.com/RhagaviThiyagarajan">
+    <a href="https://github.com/RhagaviThiyagarajan" target="_blank" without rel="noreferrer" >
     <img src={Github} alt="github"/>
     </a>
  
-   <a href="https://www.linkedin.com/in/rhagavi/">
+   <a href="https://www.linkedin.com/in/rhagavi/" target="_blank" without rel="noreferrer" >
    <img src={LinkedIn} alt="LinkedIn"/>
    </a>
      
